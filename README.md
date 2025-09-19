@@ -1,7 +1,6 @@
 # 💡 Data Pipeline ServiceNow + Hexagon com Airflow, dbt e BigQuery
 
-Este projeto implementa um pipeline completo de dados unindo **ServiceNow → BigQuery → dbt → Airflow**,\ com anonimização e orquestração de fluxos ETL.\
-O objetivo é construir um pipeline demonstrando boas práticas de integração,\ modelagem e automação de workflows de dados.\
+Este projeto implementa um pipeline completo de dados unindo **ServiceNow → BigQuery → dbt → Airflow**, com anonimização e orquestração de fluxos ETL. O objetivo é construir um pipeline demonstrando boas práticas de integração, modelagem e automação de workflows de dados.\
 Passo a passo das execuções no [Gist](https://gist.github.com/cooorpse/62bffe6d1401dc768032095c5912baa8)
 
 ---
