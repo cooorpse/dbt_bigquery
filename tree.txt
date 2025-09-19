@@ -1,0 +1,42 @@
+/home/administrator/astro_bigquery
+├── airflow_settings.yaml
+├── dags
+│   ├── hexagon.py
+│   └── servicenow.py
+├── Dockerfile
+├── include
+├── packages.txt
+├── plugins
+├── projects
+│   ├── bq_hexagon
+│   │   ├── analyses
+│   │   ├── dbt_project.yml
+│   │   ├── logs
+│   │   ├── macros
+│   │   ├── models
+│   │   ├── README.md
+│   │   ├── seeds
+│   │   ├── snapshots
+│   │   ├── target
+│   │   └── tests
+│   ├── bq_servicenow
+│   │   ├── analyses
+│   │   ├── dbt_project.yml
+│   │   ├── logs
+│   │   ├── macros
+│   │   ├── models
+│   │   ├── README.md
+│   │   ├── seeds
+│   │   ├── snapshots
+│   │   ├── target
+│   │   └── tests
+│   └── logs
+│       └── dbt.log
+├── README.md
+├── requirements.txt
+├── tests
+│   └── dags
+│       └── test_dag_example.py
+└── tree.txt
+
+25 directories, 14 files
