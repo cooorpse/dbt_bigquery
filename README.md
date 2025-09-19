@@ -31,6 +31,8 @@ Este projeto implementa um pipeline completo de dados unindo **ServiceNow → Bi
      - `dbt_hexagon` → executa modelos Hexagon.
    - Cada DAG é desacoplado, pois os dois domínios não possuem dependências.
 
+   ![Airflow_dag](/assets/img/airflow.png)
+
 4. **Automação (API do Airflow)**
    - Além de schedules (`@daily`), DAGs podem ser disparadas via API:
    ```bash
