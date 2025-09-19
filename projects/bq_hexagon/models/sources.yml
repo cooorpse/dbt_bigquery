@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: staging
+    description: Fonte de dados do BigQuery
+    database: upheld-quanta-471714-q1
+    schema: dbt_hexagon
+    tables:
+      - name: sn_incidents
+        description: Tabela do Hexagon no BigQuery
+        columns:
+          - name: sys_id
+      #       tests: [not_null, unique]
+            

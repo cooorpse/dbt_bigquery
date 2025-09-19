@@ -1,0 +1,15 @@
+### Schema para Staging ###
+
+version: 2
+
+models:
+  - name: stg_sn_incidents
+    description: "Staging de incidentes do ServiceNow"
+    columns:
+      - name: incident_number
+        tests: [not_null, unique]
+      - name: state
+        description: "Opções possiveis de state"
+        tests:
+          - accepted_values:
+              values: ['New', 'Open', 'Resolved', 'Closed', 'Canceled', 'On Hold', 'In Progress']

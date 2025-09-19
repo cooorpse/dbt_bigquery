@@ -1,0 +1,15 @@
+### Schema para Mart ###
+
+version: 2
+
+models:
+  - name: fct_sn_incidents
+    description: "Tabela fato de incidentes"
+    columns:
+      - name: incident_number
+        tests: [not_null, unique]
+      - name: state
+        tests:
+          - accepted_values:
+              values: ['New', 'Open', 'Resolved', 'Closed', 'Canceled', 'On Hold', 'In Progress']
+              
