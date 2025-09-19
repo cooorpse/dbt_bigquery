@@ -1,6 +1,6 @@
 # 💡 Pipeline ServiceNow com Airflow, dbt e BigQuery
 
-Este projeto implementa um pipeline completo de dados unindo **ServiceNow → BigQuery → dbt → Airflow**, com anonimização e orquestração de fluxos ETL. O objetivo é construir um pipeline demonstrando boas práticas de integração, modelagem e automação de workflows de dados. Passo a passo das execuções no [Gist](https://gist.github.com/cooorpse/62bffe6d1401dc768032095c5912baa8)
+Este projeto implementa um pipeline completo de dados unindo **ServiceNow → BigQuery → dbt → Airflow**, com anonimização e orquestração de fluxos ETL. O objetivo é construir um pipeline demonstrando boas práticas de integração, modelagem e automação de workflows de dados. Passo a passo das execuções no [Gist](https://gist.github.com/cooorpse/62bffe6d1401dc768032095c5912baa8).
 
 ![Diagram](/assets/img/Diagram.png)
 
@@ -11,7 +11,7 @@ Este projeto implementa um pipeline completo de dados unindo **ServiceNow → Bi
 1. **Extração & Anonimização (Python)**
    - Código Python realiza a request na API do **ServiceNow**.
    - Dados sensíveis são **anonimizados** com substituições radômicas (ex: `short_description`).
-   - Código e passo a passo [aqui](https://gist.github.com/cooorpse/62bffe6d1401dc768032095c5912baa8)
+   - Código e passo a passo [aqui](https://gist.github.com/cooorpse/62bffe6d1401dc768032095c5912baa8).
    - Resultado é salvo e enviado para o **BigQuery** na camada **raw** (`dbt_servicenow.sn_incidents`).
 
    ![BigQuery](/assets/img/BigQuery.png)
